@@ -1,0 +1,35 @@
+// loop (code for repeat) 
+size(800, 800);
+background (0); 
+stroke (255); 
+// initialization     condition    incrementation
+//for (int i = 0;       i < 1000;       i = i+1  )  { 
+ // circle ( random(0, width), random(0, height), random(1,5));
+//}
+// rename: right click then rename
+
+// vertical 
+//for (int w = 0;       w < 1000;       w = w+10  )  { 
+ // line (w, 0, w, height);
+}
+
+// horizontal & veritcal
+//for (int w = 0;       w < 1000;       w = w+10  )  { 
+  //line (w, 0, w, height);
+//}
+
+//for (int h = 0;       h < 1000;       h = h+10  )  { 
+  //line (0, h, width, h);
+//}
+
+//diagonal line
+
+
+//2 curved line
+//for (int h = 0;       h < 1000;       h = h+10  )  { 
+  //line (h, 0, width, h);
+//}
+
+//for (int w = 0;       w < 1000;       w = w+10  )  { 
+  //line (0, w, w, height);
+//}
