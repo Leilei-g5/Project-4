@@ -8,28 +8,39 @@ stroke (255);
 //}
 // rename: right click then rename
 
+
 // vertical 
 //for (int w = 0;       w < 1000;       w = w+10  )  { 
  // line (w, 0, w, height);
-}
+//}
+
 
 // horizontal & veritcal
 //for (int w = 0;       w < 1000;       w = w+10  )  { 
   //line (w, 0, w, height);
 //}
-
 //for (int h = 0;       h < 1000;       h = h+10  )  { 
   //line (0, h, width, h);
 //}
 
-//diagonal line
+
+//diagonal line 
+//for (int h = -300;       h < height ;       h = h + 70  )  { 
+  //line (0, h+ 400 , width , h);
+//}
+
+
+//cirlce
+
 
 
 //2 curved line
 //for (int h = 0;       h < 1000;       h = h+10  )  { 
   //line (h, 0, width, h);
 //}
-
 //for (int w = 0;       w < 1000;       w = w+10  )  { 
   //line (0, w, w, height);
 //}
+
+
+// box
