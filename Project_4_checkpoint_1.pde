@@ -30,7 +30,11 @@ stroke (255);
 //}
 
 
-//cirlce
+//circle
+//noFill(); 
+//for (int r = 40;       r < 2000 ;       r = r + 50  )  { 
+ // circle (400, 400, r);
+//}
 
 
 
@@ -43,4 +47,9 @@ stroke (255);
 //}
 
 
-// box
+// rectangular
+//noFill(); 
+//rectMode (CENTER); 
+//for (int w = width;       w > 0 ;       w -= 100  )  { 
+//rect (width/2, height/2, w, w);
+//}
