@@ -35,9 +35,11 @@
 
 //picture 3 triangle 
 size(500, 500); 
-background (255); 
+background (216, 216, 216); 
 fill(0); 
 for (int x=0; x<= width; x+= 100) {
   triangle(x, 0, x+ 50, 0, x+50, 50); 
 }
-  
+for (int x=50; x<= width; x+= 100) {
+  triangle(x, 50, x+ 50, 0, x+50, 50); 
+}
