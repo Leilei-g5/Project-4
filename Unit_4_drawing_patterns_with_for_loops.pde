@@ -59,7 +59,7 @@
 //}
 
 
-//picture 4 red and yellow chinese design
+//picture 4 red and yellow square design
 //size(555, 395);
 //background(173, 7, 7);
 //stroke(245, 184, 72);
@@ -97,14 +97,43 @@
 //}
 
 //picture 5 circle 
-size(500, 500); 
-background(255); 
-stroke(0);
-noFill(); 
-for (int x= 50; x< 600; x+=90) { 
-  for (int y=50; y<600; y+=90){ 
-    for(int w=10; w<110; w+=25){ 
-      circle ( x, y, w); 
-    }
-  }
-}
+//size(545, 545); 
+//background(255); 
+//stroke(0);
+//noFill();
+//for (int x= 50; x< 600; x+=90) { 
+ //for (int y=50; y<600; y+=90){ 
+    //for(int w=10; w<110; w+=25){ 
+      //circle ( x, y, w); 
+    //}
+  //}
+//}
+
+//picture 6 overlap circle 
+//background(255);
+//size(400, 300);
+//strokeWeight(3);
+//stroke(0);
+//noFill();
+//for (int x=50; x< 600; x+=100) { 
+// for (int y=0; y<600; y+=100){ 
+//    for(int w=10; w<110; w+=25){ 
+    //  circle (x, y, w); 
+   // }
+  
+ // }
+//}
+//for (int x=100; x< 600; x+=100) { 
+ //for (int y=50; y<600; y+=100){ 
+ //for(int w=10; w<110; w+=25){ 
+  // circle ( x, y, w); 
+   // }
+ // }
+//}
+//for (int x=0; x< 600; x+=100) { 
+//for (int y=50; y<600; y+=100){ 
+  //  for(int w=10; w<110; w+=25){ 
+    // circle ( x, y, w); 
+   // }
+ //}
+//}
